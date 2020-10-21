@@ -1,0 +1,62 @@
+export const state = () => ({
+  footerLinks:[
+    {
+      name:"Carreras",
+      linkUrl:"/#page_2"
+    },
+    {
+      name:"Beneficios",
+      linkUrl:"/#page_4"
+    },
+    {
+      name:"¿Como Funciona?",
+      linkUrl:"/donaciones/#comoFunciona"
+    },
+    {
+      name:"Testimonios",
+      linkUrl:"/#page_5"
+    },
+    {
+      name:"Noticias",
+      linkUrl:"/#page_6"
+    },
+    {
+      name:"Historia",
+      linkUrl:"/donaciones"
+    },
+    {
+      name:"Filosofía",
+      linkUrl:"/nosotros/#ourPhilosophy"
+    },
+    {
+      name:"Nuestro Equipo",
+      linkUrl:"/nosotros/#ourTeam"
+    },
+    {
+      name:"Docentes",
+      linkUrl:"/cursos_online/#ourTeachers"
+    },
+    {
+      name:"Donaciones",
+      linkUrl:"/donaciones"
+    },
+  ],
+  paymentM:[
+    {
+      name:"Carreras",
+      imageUrl:"/footer/paypal.png"
+    },
+    {
+      name:"Beneficios",
+      imageUrl:"/footer/Diners.png"
+    },
+    {
+      name:"¿Como Funciona?",
+      imageUrl:"/footer/Visa.png"
+    },
+    {
+      name:"Testimonios",
+      imageUrl:"/footer/American.png"
+    },
+  ],
+})
